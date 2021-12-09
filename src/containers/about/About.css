@@ -1,0 +1,39 @@
+.foodsub__about {
+  padding: 6.25rem 5rem;
+  text-align: center;
+}
+
+.foodsub__about h2 {
+  color: #333333;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  margin-bottom: 12px;
+}
+
+.foodsub__about-content {
+  display: flex;
+  align-items: center;
+}
+
+.foodsub__about-content_text {
+  text-align: left;
+  padding: 0 5rem;
+  width: 50%;
+  margin-left: auto;
+}
+
+.foodsub__about-content_text p {
+  color: #333333;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 2rem;
+}
+
+.foodsub__about-content_img {
+  margin-right: auto;
+}
+
+.foodsub__about-content_img img {
+  width: 100%;
+}
