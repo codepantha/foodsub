@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Button } from "..";
 import logo from "../../assets/logo.svg";
 
 const Navbar = () => {
@@ -17,8 +18,8 @@ const Navbar = () => {
           <li>FAQ</li>
         </ul>
         <div className="foodsub__navbar-navitems_buttons">
-          <button>Login</button>
-          <button>Register</button>
+          <Button text='Login' bgColor="#fff" color="#ffa927" />
+          <Button text='Register' color="#fff" />
         </div>
       </div>
     </nav>

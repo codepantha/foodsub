@@ -1,11 +1,11 @@
 import React from 'react';
 import './Button.css';
 
-const Button = () => {
+const Button = ({ text, bgColor, color, height, width }) => {
   return (
-    <div>
-      Button
-    </div>
+    <button style={{ background: bgColor, color: color, height: height, width: width }}>
+      {text}
+    </button>
   )
 }
 
