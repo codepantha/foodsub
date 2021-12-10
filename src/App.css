@@ -5,6 +5,14 @@
   scroll-behavior: smooth;
 }
 
+body {
+  padding-bottom: 300px;
+}
+
 .App {
   font-family: var(--font-family);
+}
+
+.section__padding {
+  padding: 6.25rem 5rem;
 }

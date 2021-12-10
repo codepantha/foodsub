@@ -1,0 +1,32 @@
+.foodsub__services {
+  padding: 0 5rem;
+  color: #333;
+}
+
+.foodsub__services h2 {
+  color: #333333;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.foodsub__services p {
+  color: #333333;
+  font-size: 18px;
+  line-height: 22px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.foodsub__services .foodsub__services-sub {
+  margin-bottom: 60px;
+}
+
+.foodsub__services .foodsub__services-desc {
+  font-size: 16px;
+  line-height: 19.5px;
+  margin-top: 20px;
+}

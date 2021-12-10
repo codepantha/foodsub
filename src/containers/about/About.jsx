@@ -5,7 +5,7 @@ import plate from "../../assets/plate.svg";
 
 const About = () => {
   return (
-    <section className="foodsub__about">
+    <section className="foodsub__about section__padding">
       <h2>About Us</h2>
       <div className="foodsub__about-content">
         <div className="foodsub__about-content_text">
