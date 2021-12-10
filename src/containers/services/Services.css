@@ -3,6 +3,20 @@
   color: #333;
 }
 
+.foodsub__service_cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.foodsub__service_cards-card {
+  flex-basis: 20%;
+  text-align: center;
+  margin: 0 2.5%;
+  padding-top: 1rem;
+}
+
 .foodsub__services h2 {
   color: #333333;
   font-weight: 600;

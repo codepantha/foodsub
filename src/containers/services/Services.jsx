@@ -31,7 +31,7 @@ const servicesArray = [
 
 const Service = ({ icon, title, desc }) => {
   return (
-    <div className="fl w-100 w-25-l w-50-m card shadow-5 pointer grow mb5 pv3 tc" style={{height: '200px'}}>
+    <div className="foodsub__service_cards-card shadow-5 pointer grow" style={{height: '200px'}}>
       <img src={icon} alt='icon' />
       <p className="foodsub__services-title">{title}</p>
       <p className="foodsub__services-desc">{desc}</p>
@@ -45,11 +45,13 @@ const Services = () => {
       <h2>Services</h2>
       <p className="foodsub__services-sub">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet eu
-        tellus risus tincidunt libero. Malesuada mattis auctor enim tortor.\
+        tellus risus tincidunt libero. Malesuada mattis auctor enim tortor.
       </p>
-      {
-        servicesArray.map(service => <Service icon={service.icon} title={service.title} desc={service.desc} />)
-      }
+      <div className="foodsub__service_cards">
+        {
+          servicesArray.map(service => <Service icon={service.icon} title={service.title} desc={service.desc} />)
+        }
+      </div>
     </section>
   );
 };
