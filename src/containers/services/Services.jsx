@@ -41,7 +41,7 @@ const Service = ({ icon, title, desc }) => {
 
 const Services = () => {
   return (
-    <section className="foodsub__services w-100">
+    <section id="services" className="foodsub__services w-100">
       <h2>Services</h2>
       <p className="foodsub__services-sub">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet eu
@@ -49,7 +49,7 @@ const Services = () => {
       </p>
       <div className="foodsub__service_cards">
         {
-          servicesArray.map(service => <Service icon={service.icon} title={service.title} desc={service.desc} />)
+          servicesArray.map((service, i) => <Service key={service+i} icon={service.icon} title={service.title} desc={service.desc} />)
         }
       </div>
     </section>

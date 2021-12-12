@@ -1,0 +1,130 @@
+.foodsub__hiw {
+  padding: 6.25rem 5rem;
+  color: #333;
+}
+
+.foodsub__hiw-heading {
+  margin-bottom: 40px;
+}
+
+.foodsub__hiw-heading h2 {
+  color: #333333;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.foodsub__hiw-heading p {
+  color: #333333;
+  font-size: 18px;
+  line-height: 22px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.foodsub__hiw-slide_container {
+  position: relative;
+}
+
+.foodsub__hiw-slide_container--slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foodsub__hiw-slide_container--slide_img {
+  flex: 1;
+  height: 650px;
+  text-align: center;
+  padding-left: 5rem;
+}
+
+.foodsub__hiw-slide_container--slide_img img {
+  height: 100%;
+}
+
+.foodsub__hiw-slide_container--slide_details {
+  flex: 1;
+  max-height: 600px;
+  padding: 10rem 2rem;
+  align-self: flex-start;
+}
+
+.hide {
+  display: none;
+}
+
+.foodsub__hiw-slide_container--slide_details h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.foodsub__hiw-slide_container--slide_details p {
+  margin-top: 10px;
+  padding-right: 10rem;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  color: #333;
+}
+
+.foodsub__hiw-slide_container a {
+  border: 1px solid #e5e5e5;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  padding-top: 12px;
+  text-align: center;
+}
+
+.foodsub__hiw-slid_container--prev {
+  position: absolute;
+  top: 50%;
+  left: 1.5rem;
+}
+
+.foodsub__hiw-slid_container--next {
+  position: absolute;
+  top: 50%;
+  right: 1.5rem;
+}
+
+.foodsub__hiw-slide_container--dots {
+  display: flex;
+  justify-content: center;
+}
+
+.foodsub__hiw-slide_container--dots .dot {
+  height: 15px;
+  width: 15px;
+  background-color: #dadada;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+
+.dot.active {
+  background-color: #ffa927;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

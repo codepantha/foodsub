@@ -11,11 +11,11 @@ const Navbar = () => {
       </div>
       <div className="foodsub__navbar-navitems">
         <ul className="foodsub__navbar-navitems_links">
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Contact</li>
-          <li>FAQ</li>
+          <li><a href="#header" className="link">Home</a></li>
+          <li><a href="#about" className="link">About</a></li>
+          <li><a href="#services" className="link">Services</a></li>
+          <li><a href="#contact" className="link link:hover">Contact</a></li>
+          <li><a href="#faq" className="link">FAQ</a></li>
         </ul>
         <div className="foodsub__navbar-navitems_buttons">
           <Button text='Login' bgColor="#fff" color="#ffa927" />

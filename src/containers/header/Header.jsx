@@ -5,7 +5,7 @@ import { Button } from "../../components";
 
 const Header = () => {
   return (
-    <header className="foodsub__header">
+    <header id="header" className="foodsub__header">
       <div className="foodsub__header-content">
         <h1>Tasty, Hot and Healthy food</h1>
         <p>
