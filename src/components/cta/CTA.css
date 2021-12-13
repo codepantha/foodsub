@@ -22,6 +22,16 @@
   justify-content: center;
 }
 
+.foodsub__cta-email_group {
+  position: relative;
+}
+
+.foodsub__cta-email_group img {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+
 .foodsub__cta-input_fields input {
   height: 44px;
   width: 335px;

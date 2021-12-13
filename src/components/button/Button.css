@@ -7,4 +7,5 @@ button {
   height: 44px;
   border-radius: 15px;
   cursor: pointer;
+  z-index: 1;
 }

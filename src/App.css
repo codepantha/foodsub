@@ -16,3 +16,7 @@ body {
 .section__padding {
   padding: 6.25rem 5rem;
 }
+
+.gold-text {
+  color:#ffa927;
+}
