@@ -1,0 +1,25 @@
+.foodsub__footer {
+  padding: 6.2rem 5rem;
+}
+
+.foodsub__footer-about {
+  flex: 3;
+}
+
+.foodsub__footer-about .about {
+  padding-right: 12rem;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+.foodsub__footer-quicklinks {
+  flex: 1;
+}
+
+.foodsub__footer-usefullinks {
+  flex: 1;
+}
+
+.foodsub__footer-contactus {
+  flex: 1;
+}
