@@ -10,7 +10,7 @@ const FAQ = () => {
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s,
       </p>
-      <button className="bg-transparent gold-text bw0">READ MORE</button>
+      <button className="bg-transparent gold-text bw0 dim">READ MORE</button>
     </div>
   );
 };
