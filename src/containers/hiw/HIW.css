@@ -159,4 +159,12 @@
     text-align: center;
     padding: 2rem;
   }
+
+  .foodsub__hiw-slide_container--slide_details p {
+    padding-right: 0;
+  }
+
+  .foodsub__hiw-heading p {
+    width: 100%;
+  }
 }

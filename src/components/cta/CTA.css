@@ -40,3 +40,26 @@
   border: 1px solid #e5e5e5;
   border-radius: 15px;
 }
+
+@media screen and (max-width: 650px) {
+
+  .foodsub__cta {
+    padding: 6.25rem 3rem;
+  }
+
+  .foodsub__cta-input_fields {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .foodsub__cta-email_group,
+  .foodsub__cta-email_group input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .foodsub__cta-email_group button {
+    height: 100px;
+  }
+}
