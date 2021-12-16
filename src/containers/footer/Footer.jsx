@@ -5,7 +5,7 @@ import ig from "../../assets/ig.png";
 
 const Footer = () => {
   return (
-    <footer className="foodsub__footer bg-black white flex justify-between">
+    <footer className="foodsub__footer bg-black white">
       <div className="foodsub__footer-about">
         <h2>FOOD SUB</h2>
         <p className="pa3 pl0 about">

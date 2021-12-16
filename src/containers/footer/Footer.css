@@ -1,5 +1,7 @@
 .foodsub__footer {
   padding: 6.2rem 5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .foodsub__footer-about {
@@ -22,4 +24,35 @@
 
 .foodsub__footer-contactus {
   flex: 1;
+}
+
+@media screen and (max-width: 1050px) {
+  .foodsub__footer {
+    padding: 6.2rem 3rem;
+  }
+
+  .foodsub__footer-quicklinks,
+  .foodsub__footer-usefullinks {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .foodsub__footer-about .about {
+    padding-right: 7rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .foodsub__footer-about .about {
+    padding-right: 2rem;
+  }
+
+  .foodsub__footer {
+    flex-direction: column;
+  }
+
+  .foodsub__footer-about {
+    margin-bottom: 2rem;
+  }
 }
