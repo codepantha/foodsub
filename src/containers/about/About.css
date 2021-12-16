@@ -1,7 +1,6 @@
 .foodsub__about {
   text-align: center;
   padding: 6.25rem 5rem 0;
-
 }
 
 .foodsub__about h2 {
@@ -37,4 +36,30 @@
 
 .foodsub__about-content_img img {
   width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .foodsub__about {
+    padding: 6.25rem 3rem;
+  }
+  
+  .foodsub__about-content {
+    flex-direction: column-reverse;
+  }
+
+  .foodsub__about-content_text {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .foodsub__about-content_img {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .foodsub__about-content_text button {
+    width: 100%;
+  }
 }
