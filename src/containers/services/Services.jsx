@@ -31,7 +31,7 @@ const servicesArray = [
 
 const Service = ({ icon, title, desc }) => {
   return (
-    <div className="foodsub__service_cards-card shadow-5 pointer grow" style={{height: '200px'}}>
+    <div className="foodsub__service_cards-card shadow-5 pointer grow">
       <img src={icon} alt='icon' />
       <p className="foodsub__services-title">{title}</p>
       <p className="foodsub__services-desc">{desc}</p>
