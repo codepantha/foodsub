@@ -39,6 +39,12 @@
   color: #333;
 }
 
+@media screen and (min-width: 1051px) {
+  .foodsub__navbar svg {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .foodsub__navbar-navitems {
     display: none;
@@ -50,11 +56,12 @@
 
   .nav__menu-container {
     position: absolute;
-    top: 4%;
+    top: 10%;
     right: 0;
     background: #fff;
     padding: 1rem;
     border-radius: 8px;
+    opacity: 0.9;
   }
 
   .foodsub__navbar-navitems_links {
