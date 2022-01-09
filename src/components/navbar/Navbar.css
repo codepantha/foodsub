@@ -38,3 +38,59 @@
 .link {
   color: #333;
 }
+
+@media screen and (min-width: 1051px) {
+  .foodsub__navbar svg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .foodsub__navbar-navitems {
+    display: none;
+  }
+
+  .foodsub__navbar {
+    padding: 1rem 3.5rem;
+  }
+
+  .nav__menu-container {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    opacity: 0.9;
+  }
+
+  .foodsub__navbar-navitems_links {
+    flex-direction: column;
+  }
+}
+
+.scale-up-hor-center {
+	-webkit-animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+@keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}

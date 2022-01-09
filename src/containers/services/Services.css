@@ -13,8 +13,10 @@
 .foodsub__service_cards-card {
   flex-basis: 20%;
   text-align: center;
-  margin: 0 2.5%;
+  margin: 16px 2.5%;
   padding-top: 1rem;
+  padding-bottom: 1rem;
+  min-height: 250px;
 }
 
 .foodsub__services h2 {
@@ -43,4 +45,30 @@
   font-size: 16px;
   line-height: 19.5px;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .foodsub__service_cards-card {
+    flex-basis: 28%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .foodsub__services {
+    padding: 0 3rem;
+  }
+
+  .foodsub__services .foodsub__services-sub {
+    width: 100%;
+  }
+
+  .foodsub__service_cards-card {
+    flex-basis: 40%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .foodsub__service_cards-card {
+    flex-basis: 80%;
+  }
 }

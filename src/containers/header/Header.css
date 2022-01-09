@@ -17,7 +17,7 @@
   font-size: 40px;
   line-height: 49px;
   text-align: center;
-  padding: 0 12rem;
+  /* padding: 0 12rem; */
   margin-bottom: 30px;
 }
 
@@ -28,4 +28,18 @@
   text-align: center;
   padding: 0 10rem;
   margin-bottom: 56px;
+}
+
+@media screen and (max-width: 1050px) {
+  .foodsub__header-content {
+    padding: 6rem 3rem;
+  }
+
+  .foodsub__header-content h1 {
+    font-size: 28px;
+  }
+
+  .foodsub__header-content p {
+    padding: 0;
+  }
 }
