@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { Button } from "..";
-import "./CTA.css";
-import email from "../../assets/email.svg";
+import React, { useState } from 'react';
+import { Button } from '..';
+import './CTA.css';
+import email from '../../assets/email.svg';
 
 const CTA = () => {
   const [typing, setTyping] = useState(false);

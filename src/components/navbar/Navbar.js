@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import "./Navbar.css";
-import { Button } from "..";
-import logo from "../../assets/logo.svg";
-import { RiCloseLine, RiMenu2Line } from "react-icons/ri";
+import React, { useState } from 'react';
+import './Navbar.css';
+import { RiCloseLine, RiMenu2Line } from 'react-icons/ri';
+import { Button } from '..';
+import logo from '../../assets/logo.svg';
 
 const Menu = () => (
   <>

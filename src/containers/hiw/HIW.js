@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import "./HIW.css";
-import { slides } from "../../slides";
+import React, { useState } from 'react';
+import './HIW.css';
+import { slides } from '../../slides';
 
 const HIW = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -9,11 +9,11 @@ const HIW = () => {
     const btnClicked = e.target.name;
     let newSlide;
 
-    if (btnClicked === "prev") newSlide = currentSlide - 1;
+    if (btnClicked === 'prev') newSlide = currentSlide - 1;
     if (newSlide < 0) setCurrentSlide(slides.length - 1);
     else setCurrentSlide(newSlide);
 
-    if (btnClicked === "next") {
+    if (btnClicked === 'next') {
       newSlide = currentSlide + 1;
       if (newSlide < slides.length) {
         setCurrentSlide(newSlide);
@@ -33,25 +33,23 @@ const HIW = () => {
         </p>
       </div>
       <div className="foodsub__hiw-slide_container">
-        {slides.map((slide, i) => {
-          return (
-            <div
-              className={
+        {slides.map((slide, i) => (
+          <div
+            className={
                 currentSlide === i
-                  ? "foodsub__hiw-slide_container--slide fade"
-                  : "hide"
+                  ? 'foodsub__hiw-slide_container--slide fade'
+                  : 'hide'
               }
-            >
-              <div className="foodsub__hiw-slide_container--slide_img">
-                <img src={slide.img} alt="phone" />
-              </div>
-              <div className="foodsub__hiw-slide_container--slide_details">
-                <h3>{slide.name}</h3>
-                <p>{slide.detail}</p>
-              </div>
+          >
+            <div className="foodsub__hiw-slide_container--slide_img">
+              <img src={slide.img} alt="phone" />
             </div>
-          );
-        })}
+            <div className="foodsub__hiw-slide_container--slide_details">
+              <h3>{slide.name}</h3>
+              <p>{slide.detail}</p>
+            </div>
+          </div>
+        ))}
 
         {/* Prev and Next Btns */}
         <a
@@ -73,8 +71,8 @@ const HIW = () => {
           {slides.map((slide, i) => (
             <span
               key={slide + i}
-              className={currentSlide === i ? "dot active" : "dot"}
-            ></span>
+              className={currentSlide === i ? 'dot active' : 'dot'}
+            />
           ))}
         </div>
       </div>
