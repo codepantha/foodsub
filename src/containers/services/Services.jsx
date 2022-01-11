@@ -8,24 +8,25 @@ import track from "../../assets/track.svg";
 const icons = [deliver, gift, subscribe, track];
 const servicesArray = [
   {
-    title: 'Meal Subscription',
-    desc: 'Suscribe for a meal online before delivery day.',
+    title: 'Save time',
+    desc: 'No more market run and prep-time ',
     icon: subscribe
   },
   {
-    title: 'Fast Delivery',
-    desc: 'Enjoy a fast delivery of good and delicious meal.',
+    title: 'Flexible ',
+    desc: 'One time payment weekly or monthly.',
     icon: deliver
+  },
+ 
+  {
+    title: 'Pause Anytime',
+    desc: 'Leaving town? Pause and resume whenever',
+    icon: track
   },
   {
     title: 'Gift a Meal',
-    desc: 'Gift a meal to someone and have it delivered.',
+    desc: 'Make someone happy with food',
     icon: gift
-  },
-  {
-    title: 'Track Order',
-    desc: 'Food Sub offers you the option to track your food order.',
-    icon: track
   },
 ]
 
@@ -44,8 +45,8 @@ const Services = () => {
     <section id="services" className="foodsub__services w-100">
       <h2>Services</h2>
       <p className="foodsub__services-sub">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet eu
-        tellus risus tincidunt libero. Malesuada mattis auctor enim tortor.
+      We belive eating should be easy for everyone.
+
       </p>
       <div className="foodsub__service_cards">
         {

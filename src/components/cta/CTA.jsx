@@ -18,8 +18,9 @@ const CTA = () => {
             onChange={() => setTyping(true)}
           />
         </div> */
-        <h4>Get started at ₦5,600 a week or ₦24,000 a month</h4>
+      
         }
+          <h4 style="color:#fff">Get started at ₦5,600 a week or ₦24,000 a month</h4><br/>
         <Button text="Join waitlist" width="335px" />
       </div>
     </section>
