@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import bgImg from "../../assets/headerimg.png";
+import bgImg from "../../assets/headerimg.jpg";
 import { Button } from "../../components";
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
       <div className="foodsub__header-content">
         <h1>A faster and cheaper alternative to cooking</h1>
         <p>
-          Eat Nutrious chef food meals you crave at your convenience
+          Get Nutrious chef food meals you crave at your door-step when you want it.
         </p>
         <Button text='Join waitlist' height='60px' width='256px' />
       </div>
