@@ -33,10 +33,10 @@ const Menu = () => (
         </a>
       </li>
     </ul>
-    <div className="foodsub__navbar-navitems_buttons">
+    {/* <div className="foodsub__navbar-navitems_buttons">
       <Button text="Login" bgColor="#fff" color="#ffa927" />
       <Button text="Register" color="#fff" />
-    </div>
+    </div> */}
   </>
 );
 

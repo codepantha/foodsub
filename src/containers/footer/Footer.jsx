@@ -9,14 +9,13 @@ const Footer = () => {
       <div className="foodsub__footer-about">
         <h2>FOOD SUB</h2>
         <p className="pa3 pl0 about">
-          Food Sub is an online food suscription app that enables you suscribe
-          for a meal and have it delivered at your doorstep.
+          A faster and cheaper alternative to cooking.
         </p>
         <div className="foodsub__footer-about_icons">
           <img src={ig} style={{marginRight: '10px'}}/>
           <img src={fb} />
         </div>
-        <p className="mt3">&copy; 2021 Food Sub. All Rights Reserved</p>
+        <p className="mt3">&copy; 2022 Food Subcribtion for Africans. All Rights Reserved</p>
       </div>
       <div className="foodsub__footer-quicklinks">
         <p className="f4">Quicklinks</p>
@@ -35,8 +34,8 @@ const Footer = () => {
       </div>
       <div className="foodsub__footer-contactus">
         <p className="f4">Contact us</p>
-        <p className="mv3"><a href="#" className="no-underline white pa dim">Foodsub.co</a></p>
-        <p className="mv3"><a href="tel:+234090111111" className="no-underline white pa dim">+234(0)90111111</a></p>
+        <p className="mv3"><a href="#" className="no-underline white pa dim">hello@foodsub.africa</a></p>
+        <p className="mv3"><a href="tel:+234090111111" className="no-underline white pa dim">+234(0)7068138588</a></p>
         <p className="mv3 white">Lagos, Nigeria</p>
       </div>
     </footer>
