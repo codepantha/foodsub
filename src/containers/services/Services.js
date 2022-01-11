@@ -43,7 +43,7 @@ const Service = ({ icon, title, desc }) => {
 const Services = () => {
   return (
     <section id="services" className="foodsub__services w-100">
-      <h2>Services</h2>
+      <h2>Why choose Foodsub</h2>
       <p className="foodsub__services-sub">
       We belive eating should be easy for everyone.
 

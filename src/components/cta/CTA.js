@@ -20,9 +20,10 @@ const CTA = () => {
         </div> */
       
         }
-          <h4 className="foodsub__cta3">Get started at ₦5,600 a week or ₦24,000 a month</h4><br/>
-        <Button text="Join waitlist" width="335px" />
+          
       </div>
+      <div><h4 className="foodsub__cta3">Get started at ₦5,600 a week or ₦24,000 a month</h4><br/>
+        <Button text="Join waitlist" width="335px" /></div>
     </section>
   );
 };

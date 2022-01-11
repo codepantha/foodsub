@@ -28,7 +28,7 @@ const HIW = () => {
       <div className="foodsub__hiw-heading">
         <h2>How it works</h2>
         <p>
-          Flexible Plans to fit your life. Subscribe weekly or monthly, we offer anywhere from 4–10 meals per delivery, starting at 5,600 weekly or 24,000 monthly.
+          Flexible Plans to fit your life. <br/>Subscribe weekly or monthly, <br/>we offer anywhere from 4–10 meals per delivery. <br/>
            Pause, cancel, or change your meal anytime
         </p>
       </div>
