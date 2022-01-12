@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import './Navbar.css';
-import { RiCloseLine, RiMenu2Line } from 'react-icons/ri';
-import { Button } from '..';
-import logo from '../../assets/logo.svg';
+import React, { useState } from "react";
+import "./Navbar.css";
+import { Button } from "..";
+import logo from "../../assets/logo.svg";
+import { RiCloseLine, RiMenu2Line } from "react-icons/ri";
 
 const Menu = () => (
   <>
@@ -33,10 +33,10 @@ const Menu = () => (
         </a>
       </li>
     </ul>
-    <div className="foodsub__navbar-navitems_buttons">
+    {/* <div className="foodsub__navbar-navitems_buttons">
       <Button text="Login" bgColor="#fff" color="#ffa927" />
       <Button text="Register" color="#fff" />
-    </div>
+    </div> */}
   </>
 );
 
