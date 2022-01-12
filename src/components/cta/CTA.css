@@ -17,6 +17,16 @@
   margin: 20px;
 }
 
+
+.foodsub__cta3 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 49px;
+  color: #fff;
+  margin: 20px;
+}
+
 .foodsub__cta-input_fields {
   display: flex;
   justify-content: center;
