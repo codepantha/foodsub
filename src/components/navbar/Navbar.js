@@ -1,8 +1,16 @@
+ dev
+import React, { useState } from 'react';
+import './Navbar.css';
+import { RiCloseLine, RiMenu2Line } from 'react-icons/ri';
+import { Button } from '..';
+import logo from '../../assets/logo.svg';
+=======
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Button } from "..";
 import logo from "../../assets/logo.svg";
 import { RiCloseLine, RiMenu2Line } from "react-icons/ri";
+dev
 
 const Menu = () => (
   <>
@@ -33,10 +41,17 @@ const Menu = () => (
         </a>
       </li>
     </ul>
+dev
+    <div className="foodsub__navbar-navitems_buttons">
+      <Button text="Login" bgColor="#fff" color="#ffa927" />
+      <Button text="Register" color="#fff" />
+    </div>
+=======
     {/* <div className="foodsub__navbar-navitems_buttons">
       <Button text="Login" bgColor="#fff" color="#ffa927" />
       <Button text="Register" color="#fff" />
     </div> */}
+dev
   </>
 );
 
