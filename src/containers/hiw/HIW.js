@@ -28,13 +28,8 @@ const HIW = () => {
       <div className="foodsub__hiw-heading">
         <h2>How it works</h2>
         <p>
-dev
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet eu
-          tellus risus tincidunt libero. Malesuada mattis auctor enim tortor.
-=======
           Flexible Plans to fit your life. <br/>Subscribe weekly or monthly, <br/>we offer anywhere from 4–10 meals per delivery. <br/>
            Pause, cancel, or change your meal anytime
-dev
         </p>
       </div>
       <div className="foodsub__hiw-slide_container">
