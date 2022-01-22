@@ -17,6 +17,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   min-height: 265px;
+  border-radius: 1.5rem;
  
 }
 
@@ -43,7 +44,7 @@
 }
 
 .foodsub__services .foodsub__services-desc {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 19.5px;
   margin-top: 20px;
 }
