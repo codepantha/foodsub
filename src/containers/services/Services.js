@@ -1,11 +1,11 @@
 import React from "react";
 import "./Services.css";
-import pause from "../../assets/pause.svg";
+import deliver from "../../assets/pause.svg";
 import gift from "../../assets/gift.svg";
-import clock from "../../assets/clock.svg";
+import clock from "../../assets/subscribe.svg";
 import track from "../../assets/track.svg";
 
-const icons = [clock, gift, pause, track];
+const icons = [deliver, gift, subscribe, track];
 const servicesArray = [
   {
     title: 'Save time',
@@ -15,13 +15,13 @@ const servicesArray = [
   {
     title: 'Flexible ',
     desc: 'One time payment weekly or monthly.',
-    icon: pause
+    icon: deliver
   },
  
   {
     title: 'Pause Anytime',
     desc: 'Leaving town? Pause and resume whenever',
-    icon: track
+    icon: pause
   },
   {
     title: 'Gift a Meal',
