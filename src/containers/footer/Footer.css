@@ -7,6 +7,10 @@
 .foodsub__footer-about {
   flex: 3;
 }
+.foodsub__footer-copy-right{
+  flex: 5;
+  text-align: center;
+}
 
 .foodsub__footer-about .about {
   padding-right: 12rem;
