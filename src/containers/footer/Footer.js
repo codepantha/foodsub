@@ -39,9 +39,9 @@ const Footer = () => {
         <p className="mv3"><a href="tel:+234090111111" className="no-underline white pa dim">+234(0)7068138588</a></p>
         <p className="mv3 white">Lagos, Nigeria</p>
       </div>
-  
+      <div className="foodsub__footer-copy-right">  <p className="mt3">&copy; 2022 Food Subcription for Africans. All Rights Reserved</p></div>
      </div>
-     <div>  <p className="mt3">&copy; 2022 Food Subcription for Africans. All Rights Reserved</p></div>
+     
     </footer>
   );
 };
