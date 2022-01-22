@@ -23,7 +23,7 @@
 }
 
 .foodsub__footer-contactus {
-  flex: 1;
+  flex: 2;
 }
 
 @media screen and (max-width: 1050px) {

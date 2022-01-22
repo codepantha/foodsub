@@ -12,12 +12,12 @@
 
 .foodsub__service_cards-card {
   flex-basis: 20%;
-  text-align: left;
+  text-align: center;
   margin: 16px 2.5%;
   padding-top: 1rem;
   padding-bottom: 1rem;
   min-height: 265px;
-  border-radius: 3rem;
+  border-radius: 1.5rem;
  
 }
 
