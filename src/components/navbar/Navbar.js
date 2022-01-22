@@ -27,11 +27,6 @@ const Menu = () => (
           Contact
         </a>
       </li>
-      <li>
-        <a href="#faq" className="link dim">
-          FAQ
-        </a>
-      </li>
     </ul>
     {/* <div className="foodsub__navbar-navitems_buttons">
       <Button text="Login" bgColor="#fff" color="#ffa927" />
@@ -62,3 +57,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
