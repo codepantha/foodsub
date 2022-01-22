@@ -12,11 +12,12 @@
 
 .foodsub__service_cards-card {
   flex-basis: 20%;
-  text-align: center;
+  text-align: left;
   margin: 16px 2.5%;
   padding-top: 1rem;
   padding-bottom: 1rem;
   min-height: 265px;
+  border-radius: 3rem;
  
 }
 
@@ -43,7 +44,7 @@
 }
 
 .foodsub__services .foodsub__services-desc {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 19.5px;
   margin-top: 20px;
 }
