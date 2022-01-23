@@ -16,7 +16,7 @@
   margin: 16px 2.5%;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  min-height: 265px;
+  min-height: 200px;
   border-radius: 1.5rem;
  
 }
@@ -34,7 +34,7 @@
   color: #333333;
   font-size: 18px;
   line-height: 22px;
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
 }
@@ -47,6 +47,9 @@
   font-size: 13px;
   line-height: 19.5px;
   margin-top: 20px;
+}
+.foodsub__services-title{
+  text-align: left;
 }
 
 @media screen and (max-width: 960px) {
