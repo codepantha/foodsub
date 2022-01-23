@@ -25,7 +25,7 @@ const servicesArray = [
   },
   {
     title: 'Gift a Meal',
-    desc: 'Make someone happy with food. Send and receive meal subscribtions as gifts from friends ',
+    desc: 'Make someone happy with food.',
     icon: gift
   },
 ]
