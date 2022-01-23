@@ -1,24 +1,25 @@
-import phone from './assets/phone.png';
-import menu from './assets/menu.png';
+import login from './assets/login.png';
+import sub from './assets/subscribe.png';
+import hs from './assets/history.png';
 export const slides = [
   {
     name: "Choose your plan",
     detail:
-      "Get the Foodsub app. Create/login to an existing account  to get started. ",
-    img: phone
+      "Get the Foodsub app from Play or . Create/login to an existing account  to get started. ",
+    img: login
   },
   
   {
     name: "We Cook & Deliver",
     detail:
       "Select a plan and meal schedule that suites you, We cook your picks and send them fresh right on schedule. Delivery is free",
-    img: menu
+    img: sub
   },
   {
     name: "Eat & Repeat",
     detail:
-      "Skip, pause or cancle your subcribtion anytime",
-    img: phone
+      "Skip, pause or cancle your subcription anytime",
+    img: hs
   },
   // {
   //   name: "Make an Order",

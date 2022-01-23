@@ -10,12 +10,13 @@
   color: #fff;
   padding: 11rem 10rem;
   text-align: center;
+  opacity: 1;
 }
 
 .foodsub__header-content h1 {
   font-weight: 600;
   font-size: 40px;
-  line-height: 49px;
+  line-height: 50px;
   text-align: center;
   /* padding: 0 12rem; */
   margin-bottom: 30px;
