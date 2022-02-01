@@ -1,7 +1,7 @@
 import React from 'react';
 import "tachyons";
 import './App.css';
-import { CTA, Navbar } from './components';
+import { CTA, FAQ, Navbar } from './components';
 import { About,  Footer, Header, HIW, Services } from './containers';
 
 const App = () => (
@@ -12,6 +12,7 @@ const App = () => (
     <Services />
     <HIW />
     <CTA />
+    <FAQ />
     <Footer />
   </div>
 );
