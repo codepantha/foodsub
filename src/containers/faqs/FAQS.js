@@ -1,32 +1,32 @@
-// import React from 'react';
-// import './FAQS.css';
-// import { Button, FAQ } from '../../components';
+import React from 'react';
+import './FAQS.css';
+import { Button, FAQ } from '../../components';
 
-// const faqs = [
-//   {
-//     question: 'How to subscribe for a meal',
-//     answer: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
-//   },
-//   {
-//     question: 'How to subscribe for a meal',
-//     answer: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
-//   },
-//   {
-//     question: 'How to subscribe for a meal',
-//     answer: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
-//   },
-//   {
-//     question: 'How to subscribe for a meal',
-//     answer: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
-//   },
-// ]
+const faqs = [
+  {
+    question: 'How to subscribe for a meal',
+    answer: 'Simply log on and choose your favourite dish,',
+  },
+  {
+    question: 'How often can I get my meals',
+    answer: 'As often as you want it. Every day of the week 24/7',
+  },
+  {
+    question: 'How to subscribe for a meal',
+    answer: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
+  },
+  {
+    question: 'How to subscribe for a meal',
+    answer: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
+  },
+]
 
-// const FAQS = () => {
-//   return (
-//     <section className="foodsub__faqs w-100 flex flex-wrap">
-//       {faqs.map(faq => <FAQ question={faq.question} answer={faq.answer} />)}
-//     </section>
-//   )
-// }
+const FAQS = () => {
+  return (
+    <section className="foodsub__faqs w-100 flex flex-wrap">
+      {faqs.map(faq => <FAQ question={faq.question} answer={faq.answer} />)}
+    </section>
+  )
+}
 
-// export default FAQS
+export default FAQS
