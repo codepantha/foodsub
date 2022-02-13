@@ -1,30 +1,32 @@
 import login from './assets/login.png';
 import sub from './assets/subscribe.png';
 import hs from './assets/history.png';
+import me from './assets/menu1.png';
 export const slides = [
   {
     name: "Choose your plan",
     detail:
-      "Get the Foodsub app from Play or . Create/login to an existing account  to get started. ",
+      "Get the Foodsub app from Play or App store. Create/login to an existing account  to get started. ",
     img: login
   },
   
   {
-    name: "We Cook & Deliver",
+    name: "Select Your Preferences",
     detail:
-      "Select a plan and meal schedule that suites you, We cook your picks and send them fresh right on schedule. Delivery is free",
+      "Answer a few questions about your taste, serving size and delivery preferences to help us personalize your menu and prepare your meal the way you like it,",
     img: sub
+  },
+  {
+    name: "Customize Your Order",
+    detail:
+      "Pick from a variety of meals on our menu, You can also use our AI  tool to help customize your order when you're confused about what to eat , swap, or double up on your favorite meal. ",
+    img: me
   },
   {
     name: "Eat & Repeat",
     detail:
-      "Skip, pause or cancle your subcription anytime",
-    img: hs
+      "Receive freshly made chef cooked meals, You’ll always have something new and exciting to eat with Foodsub ",
+      img:hs
   },
-  // {
-  //   name: "Make an Order",
-  //   detail:
-  //     "Create/login to an existing account to get started. An account is created with your email and a desired password.",
-  //   img: menu
-  // },
+  
 ];

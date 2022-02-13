@@ -8,24 +8,24 @@ import deliver from "../../assets/deliver.svg";
 const icons = [clock, gift, pause, deliver];
 const servicesArray = [
   {
-    title: 'Save time',
-    desc: 'No more market run and prep-time. Just eat.',
+    title: 'Save time ',
+    desc: <div>You don’t have to go anywhere or wait for on a long que. We do all the work and deliver your meals for free right on schedule.</div>,
     icon: clock
   },
   {
     title: 'Flexible ',
-    desc: 'One time payment weekly or monthly.',
+    desc: <div>We blend into your lifestyle and create convenience. Select a weekly or monthly plan and set delivery days that suits you.</div>,
     icon: deliver
   },
  
   {
     title: 'Pause Anytime',
-    desc: "Leaving town?     Pause and resume whenever.",
+    desc: <div>Leaving town? <br/> you can always pause, cancel, or change your meal at any time.</div>,
     icon: pause
   },
   {
-    title: 'Gift a Meal',
-    desc: 'Make someone happy with food.',
+    title: 'Gift',
+    desc: <div>It's the perfect gift for people you Love. You save them time, money and  give them relief.</div>,
     icon: gift
   },
 ]
@@ -43,9 +43,9 @@ const Service = ({ icon, title, desc }) => {
 const Services = () => {
   return (
     <section id="services" className="foodsub__services w-100">
-      <h2>Why choose Foodsub</h2>
+      <h2>Why choose Foodsub?</h2>
       <p className="foodsub__services-sub">
-      We belive eating should be easy for everyone.
+  We save you time, money and  serve you nutritious chef <br/>cooked meals you crave with just with few clicks 
 
       </p>
       <div className="foodsub__service_cards">

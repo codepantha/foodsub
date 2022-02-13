@@ -1,9 +1,10 @@
 .foodsub__header {
-  height: 100vh;
-  background-image: url('../../assets/headerimg.jpg');
+  height: auto;
+  background-image: url('../../assets/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  
 }
 
 .foodsub__header-content {
@@ -11,6 +12,7 @@
   padding: 11rem 10rem;
   text-align: center;
   opacity: 1;
+  width: auto;
 }
 
 .foodsub__header-content h1 {

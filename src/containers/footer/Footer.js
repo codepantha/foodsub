@@ -4,15 +4,16 @@ import "./Footer.css";
 import ig from "../../assets/ig.png";
 import tw from "../../assets/tw.png";
 import ln from "../../assets/ln.png";
+import logo from "../../assets/foodsub3.png";
 
 const Footer = () => {
   return (
     <footer>
      <div className="foodsub__footer bg-black white">
      <div className="foodsub__footer-about">
-        <h2>FOOD SUB</h2>
+     <img src={logo} width="150" height="28"/>
         <p className="pa3 pl0 about">
-          A faster and cheaper alternative to cooking for busy Africans
+          A faster and cheaper alternative <br/>to cooking for busy Africans
         </p>
         <div className="foodsub__footer-about_icons">
           <a href="instagram.com/foodsubs.africa"><img src={ig} style={{marginRight: '10px'}}/></a>
