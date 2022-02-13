@@ -2,6 +2,9 @@
   text-align: center;
   padding: 6.25rem 5rem 0;
 }
+button{
+  margin-bottom: 3rem;
+}
 
 .foodsub__about h2 {
   color: #333333;
@@ -28,6 +31,7 @@
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 2rem;
+  text-align: left;
 }
 
 .foodsub__about-content_img {

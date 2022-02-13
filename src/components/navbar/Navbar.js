@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Button } from "..";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/foodsub.png";
 import { RiCloseLine, RiMenu2Line } from "react-icons/ri";
 
 const Menu = () => (
@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
     <nav className="foodsub__navbar">
       <div className="foodsub__navbar-logo">
-        <img src={logo} />
+        <img src={logo} width="150" height="28"/>
       </div>
       <div className="foodsub__navbar-navitems">
         <Menu />

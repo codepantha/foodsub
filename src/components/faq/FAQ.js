@@ -8,7 +8,7 @@ const FAQ = (props) => {
       <p className="mb3">
         {props.answer}
       </p>
-      <button className="bg-transparent gold-text bw0 dim">READ MORE</button>
+      {/* <button className="bg-transparent gold-text bw0 dim">READ MORE</button> */}
     </div>
   );
 };
