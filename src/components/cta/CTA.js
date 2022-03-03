@@ -20,7 +20,7 @@ const CTA = () => {
         </div> */
       
         }
-           <a href="https://forms.gle/Kidh7UGmaSiNGJYH7" target="blank"> <Button  text="Join waitlist" width="335px" /></a>
+           <a href="https://forms.gle/Kidh7UGmaSiNGJYH7" target="blank"> <Button  text="Get early access" width="335px" /></a>
           
       </div>
    

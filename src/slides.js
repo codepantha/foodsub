@@ -19,7 +19,7 @@ export const slides = [
   {
     name: "Customize Your Order",
     detail:
-      "Pick from a variety of meals on our menu, You can also use our AI  tool to help customize your order when you're confused about what to eat , swap, or double up on your favorite meal. ",
+      "Pick from a variety of meals on our menu, You can also use our AI  tool to help customize your order when you're confused about what to eat or you don't , swap, or double up on your favorite meal. ",
     img: me
   },
   {
