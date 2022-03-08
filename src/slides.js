@@ -1,7 +1,7 @@
-import login from './assets/login.png';
+import login from './assets/login1.png';
 import sub from './assets/subscribe.png';
 import hs from './assets/history.png';
-import me from './assets/menu1.png';
+import me from './assets/menu11.png';
 export const slides = [
   {
     name: "Choose your plan",

@@ -8,7 +8,7 @@ const CTA = () => {
 
   return (
     <section className="foodsub__cta foodsub__cta h3">
-      <h3>Get started at ₦5,600 a week or ₦24,000 a month</h3>
+      <h3>Get started at ₦6,000 a week or ₦30,000 a month</h3>
       <div className="foodsub__cta-input_fields">
         {/* <div className="foodsub__cta-email_group">
           {typing === false && <img src={email} />}
